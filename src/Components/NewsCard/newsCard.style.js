@@ -2,7 +2,7 @@ import { StyleSheet, Dimensions } from "react-native";
 
 export default StyleSheet.create({
   container: {
-    backgroundColor: "white",
+    backgroundColor: "black",
     borderRadius: 10,
     margin: 10,
     padding: 20,
@@ -24,10 +24,12 @@ export default StyleSheet.create({
     fontWeight: "bold",
     textAlign: "center",
     marginBottom: 10,
+    color:'white'
   },
   cardDescriptionText: {
     fontSize: 15,
     padding: 10,
+    color:'white',
     textAlign: "center",
   },
 
@@ -38,5 +40,6 @@ export default StyleSheet.create({
     fontSize: 13,
     fontWeight: "bold",
     fontStyle: "italic",
+    color:'white'
   },
 });
